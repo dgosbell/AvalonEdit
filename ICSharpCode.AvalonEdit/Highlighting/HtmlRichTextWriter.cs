@@ -139,7 +139,7 @@ namespace ICSharpCode.AvalonEdit.Highlighting
 			// If we just handled a space by setting hasSpace = true,
 			// we mustn't set spaceNeedsEscaping as doing so would affect our own space,
 			// not just the following spaces.
-			if (c != ' ') {
+			if (c != ' ') { // || endTagStack.Count == 0) {
 				// Following spaces must be escaped if c was a newline/tab;
 				// and they don't need escaping if c was a normal character.
 				spaceNeedsEscaping = isWhitespace;
