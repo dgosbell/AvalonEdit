@@ -1,5 +1,13 @@
 Note: this changelog only lists major changes and fixes for major bugs. For a complete list of changes, see the git log.
 
+tbd: AvalonEdit X
+* Change framework targets to .NET Framework 4.6.2, .NET Core 3.1 and .NET 6.0 (.NET Framework 4.0, 4.5 and .NET 5.0 removed)
+
+2021/12/28: AvalonEdit 6.1.3
+* TFM changes: net6.0-windows (LTS) added
+* Expose MarkerPen and MarkerCornerRadius on SearchPanel
+* Fix TSQL highlighting where a backslash exists before a single quote literal ('') in a string
+
 2021/06/01: AvalonEdit 6.1.2
 * TFM changes: netcoreapp3.0 removed in favor of netcoreapp3.1 (LTS), net5.0-windows added
 
